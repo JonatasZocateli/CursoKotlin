@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3817b76a-a2b5-4115-86c1-64c00a553647" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/ChamadaSegura.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/OperadorElvis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/TesteImport.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/pacoteA/Mistura.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/pacoteB/Matematica.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/controles/if.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" afterDir="false" />
     </list>
@@ -38,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Kotlin.fundamentos.TesteImportKt">
+  <component name="RunManager" selected="Kotlin.fundamentos.controles.IfKt">
     <configuration name="fundamentos.ChamadaSeguraKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
@@ -78,19 +74,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fundamentos.TemplateString2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="CursoKotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.TemplateString2Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="fundamentos.TesteImportKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
@@ -104,13 +87,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="fundamentos.controles.IfKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="CursoKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.controles.IfKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.fundamentos.controles.IfKt" />
         <item itemvalue="Kotlin.fundamentos.TesteImportKt" />
         <item itemvalue="Kotlin.fundamentos.OperadorElvisKt" />
         <item itemvalue="Kotlin.fundamentos.ChamadaSeguraKt" />
         <item itemvalue="Kotlin.fundamentos.NotacaoPontoKt" />
-        <item itemvalue="Kotlin.fundamentos.TemplateString2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -140,22 +136,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1581374223172">
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1581375249199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581374223172" />
-    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1581374223172">
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581375249199" />
+    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1581375249198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581374223172" />
-    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1581374223172">
+    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581375249198" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1581375249198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581374223172" />
-    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1581374223172">
+    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581375249198" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1581375249198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581374223172" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581375249198" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581272973231">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
