@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3817b76a-a2b5-4115-86c1-64c00a553647" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fundamentos/controles/if.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/controles/For1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/controles/When.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/operadores/Atribuicao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/operadores/Destructuring.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/operadores/Relacionais.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/operadores/SimulandoTernario.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" afterDir="false" />
     </list>
@@ -34,67 +39,72 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Kotlin.fundamentos.controles.IfKt">
-    <configuration name="fundamentos.ChamadaSeguraKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonat\IdeaProjects\CursoKotlin\src\fundamentos\controles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.fundamentos.operadores.SimulandoTernarioKt">
+    <configuration name="fundamentos.controles.For1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.ChamadaSeguraKt" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.controles.For1Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fundamentos.NotacaoPontoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fundamentos.controles.WhenKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.NotacaoPontoKt" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.controles.WhenKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fundamentos.OperadorElvisKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fundamentos.operadores.DestructuringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.OperadorElvisKt" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.operadores.DestructuringKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fundamentos.TesteImportKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fundamentos.operadores.RelacionaisKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.TesteImportKt" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.operadores.RelacionaisKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fundamentos.controles.IfKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="fundamentos.operadores.SimulandoTernarioKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="fundamentos.controles.IfKt" />
+      <option name="MAIN_CLASS_NAME" value="fundamentos.operadores.SimulandoTernarioKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.fundamentos.controles.IfKt" />
-        <item itemvalue="Kotlin.fundamentos.TesteImportKt" />
-        <item itemvalue="Kotlin.fundamentos.OperadorElvisKt" />
-        <item itemvalue="Kotlin.fundamentos.ChamadaSeguraKt" />
-        <item itemvalue="Kotlin.fundamentos.NotacaoPontoKt" />
+        <item itemvalue="Kotlin.fundamentos.operadores.SimulandoTernarioKt" />
+        <item itemvalue="Kotlin.fundamentos.operadores.RelacionaisKt" />
+        <item itemvalue="Kotlin.fundamentos.operadores.DestructuringKt" />
+        <item itemvalue="Kotlin.fundamentos.controles.For1Kt" />
+        <item itemvalue="Kotlin.fundamentos.controles.WhenKt" />
       </list>
     </recent_temporary>
   </component>
@@ -136,22 +146,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1581375249199">
+    <state x="412" y="227" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581442238324">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581375249199" />
-    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1581375249198">
+    <state x="412" y="227" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1581442238324" />
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1581443827683">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581375249198" />
-    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1581375249198">
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581443827683" />
+    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1581443827682">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581375249198" />
-    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1581375249198">
+    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581443827682" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1581443827682">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581375249198" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581443827682" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1581443827683">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581443827683" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581272973231">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
