@@ -1,0 +1,20 @@
+--Formatar Data
+fun getDateFormatted(dataToBeFormatted: String): String {
+
+    val entryFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd")
+    val outputFormat = DateTimeFormatter.ofPattern("dd/MM/yyyy")
+    return (LocalDate.parse(dataToBeFormatted.subSequence(0,10),entryFormat).format(outputFormat))
+
+}
+
+--Somar valores em uma lista
+
+totalAmount =  fundsList.map { it.netAssetValue }.sum(),
+
+fun Iterable<BigDecimal>.sum(): BigDecimal {
+    var sum: BigDecimal = BigDecimal.ZERO
+    for (element in this) {
+        sum += element
+    }
+    return sum
+}
